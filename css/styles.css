@@ -1,0 +1,89 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #343d46;
+}
+
+.header {
+background-color: #4f5b66;
+padding: 30px;
+}
+
+h1{
+text-align: center;
+font-size: 4em;
+font-family: Impact, Charcoal, sans-serif;
+}
+
+h2{
+	text-align: center;
+}
+
+.column1{
+float: left;
+width: 50%;
+padding: 10px;
+height: 400px;
+margin:auto;
+background-color:#65737e;
+}
+
+.column2{
+float: left;
+width: 50%;
+padding: 10px;
+height: 400px;
+margin: auto;
+background-color: #333333;
+background-image: url("http://themcmorrislife.com/DSC00005-8565.jpg");	
+}
+
+.row {
+content: "";
+display: table;
+clear: both;
+}
+
+.footer {
+background-color: #a7adba;
+padding: 10px;
+text-align:center;
+}
+
+img {
+    width: 100%
+	height: auto;
+}
+
+a:link{
+ color: #800080;
+ text-decoration: none;
+}
+
+a:hover{
+	color: #800080;
+	text-decoration: line-through;
+}
+
+a:visted{
+	color: #a52a2a;
+}
+
+.button{
+	background-color: #bf0000;
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	padding: 15px 32px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+#date {
+	font-family: monospace;
+	color: darkmagenta;
+}
